@@ -4,6 +4,12 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts';
 import Image from 'next/image';
+import CardWrapper from './ui/dashboard/cards';
+import {
+  RevenueChartSkeleton,
+  LatestInvoicesSkeleton,
+  CardSkeleton,
+} from '@/app/ui/skeletons';
 
 export default function Page() {
   return (
